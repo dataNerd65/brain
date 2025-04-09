@@ -11,7 +11,7 @@ in Competitive Programming contests in:
 - AtCoder etc
 
 I will start off with C++ for it is fast in Algorithms and will make console applications
-![CPP](brain/c-.png)
+![CPP](c-.png)
 then switch to python or Java. I got the basics but have not cemented them in my brain.
 
 NB: I will not copy from AI but will research from it concepts and understand them fully.
