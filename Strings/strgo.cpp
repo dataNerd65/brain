@@ -5,9 +5,9 @@
 #include<cctype>
 
 /** 
-* @brief A function to transform to lowercase the strings
-* @param a string
-* @return a lowercase string 
+* @brief functions to transform to lowercase the strings
+* @param  string
+* @return lowercase string 
 */
 std::string tolowerbytransform(std::string line){
 	std::transform(line.begin(), line.end(), line.begin(), [](unsigned char c){
@@ -21,8 +21,11 @@ std::string tolowerbyloop(std::string line){
 	} 
 	return line;
 }
-std::string ispalindrome(const std::string& line){
-	return line;
+/**
+ * @brief a function to check if a string is a palindrome
+*/
+bool ispalindrome(const std::string& line){
+	return true;
 }
 
 
@@ -31,7 +34,7 @@ int main(){
 	std::cin.tie(nullptr);
 	std::cout.tie(nullptr);
 	std::cout<<"***WELCOME TO STR-GO***"<<'\n';
-	std::cout<<"-Your Best Platform to learn about strings.-"<<'\n';
+	std::cout<<"---Your Best Platform to learn about strings.---"<<'\n';
 
 	std::string line;
 	while(std::getline(std::cin, line)){
