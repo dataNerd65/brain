@@ -1,0 +1,13 @@
+*.out
+*.exe
+
+# object files
+*.obj
+*.o
+
+*.tmp
+*.log
+*.swp
+
+.vscode/
+.idea/
